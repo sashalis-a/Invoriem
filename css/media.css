@@ -1,0 +1,186 @@
+/* Tablet */
+
+@media (max-width: 1000px) {
+  .hero__title {
+    font-size: 50px;
+  } 
+
+  .hero__text {
+    font-size: 20px;
+    margin: 0px 0 40px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  /* Header */
+
+  .logo {
+    max-width: 109px;
+  }
+  
+  .nav__list {
+      display: none;
+  }
+
+  .nav__btn {
+      display: block;
+  }
+
+  /* Hero */
+
+  .more-btn {
+    width: 19px;
+    height: 16px;
+  }
+
+  .header__hero {
+    display: none;
+  }
+
+  .mobile-header__hero{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+  }
+
+  .mobile-hero__text {
+    margin-top: 27px;
+    width: 237px;
+    letter-spacing: 0;
+  }
+
+
+  /* Cases Studies */
+
+  .case-studies{
+    padding: 80px 0 40px;
+  }
+
+  .title {    
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .case-studies__title {
+    border-bottom: 7px;
+  }
+
+  .case-studies__text {
+    width: 291px;
+    margin-bottom: 31px;
+  }
+
+  /* Slider */
+
+  .slide {
+    padding-left: 33px;
+  }
+  
+  .slide__title {
+    bottom: 22px;
+
+    font-size: 60px;
+    line-height: 70px;
+
+    background: linear-gradient(90deg, var(--main-link-color) 33px, #fff 33px); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .slide__img {
+    width: 224px;
+    height: 264px;
+  }
+
+  /* About */
+
+  .about {
+    padding: 40px 0 80px;
+  }
+
+  .about__title {
+    margin-bottom: 7px;
+  }
+
+  .about__text {
+    margin-bottom: 40px;
+  }
+
+  /* Video */
+
+  .about__content {
+    height: 338px;
+  }
+
+  .video__start-btn {
+    width: 48px;
+  }
+  
+  .video__start-btn img {
+    width: 100%;
+  }
+  
+  .video {
+    padding: 74px 0;
+  }
+
+  /* Footer */
+
+  .footer {
+    margin: 0;
+    padding: 32px 0;
+  }
+
+  
+  .footer__text {
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+  }
+  
+  .footer__copyright {
+    grid-row: 3/-1;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.08em;
+}
+
+  .footer__email {
+    margin: 0;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+  }
+
+  .footer__email a {
+    color: rgba(74, 42, 211, 0.7);
+  }
+
+  .footer__socials {
+    column-gap: 24px;
+  }
+  
+  .social__icon {
+    width: 24px;
+  }
+  
+  .footer__row {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 16px;
+    
+    place-items: center;
+  }
+  
+}
