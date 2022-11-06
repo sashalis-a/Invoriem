@@ -16,7 +16,7 @@
             <div class="container">
                 <nav class="header__top">
                     <a href="#!" class="nav__logo">
-                        <img class="logo" src="./img/header/logo.svg" alt="Invoriem logo">
+                        <img class="logo__icon" src="./img/header/logo.svg" alt="Invoriem logo">
                     </a>
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#!" class="nav__link">About us</a></li>
@@ -28,8 +28,8 @@
                         </li>
                     </ul>
 
-                    <button class="nav__btn">
-                        <img src="./img/header/mobile/mobile-nav-btn.svg" alt="mobile nav">
+                    <button class="nav__btn" id="openNav">
+                        <img src="./img/header/mobile/nav-btn.svg" alt="mobile nav">
                     </button>
                 </nav>
                 <div class="header__hero">
@@ -41,11 +41,84 @@
                     </div>
                 </div>
                 <!-- Mobile version -->
+                
+                <nav class="mobile-nav none" id="mobileNav">
+                    <div class="nav-header">
+                        <div class="container">
+                            <div class="header__inner">
+                                <div class="logo">
+                                    <a class="logo__link" href="#!">
+                                        <img class="logo__icon" src="./img/header/mobile/logo-title.svg" alt="logo">
+                                    </a>
+                                </div>
+                                <button class="close-nav-btn" id="closeNav">
+                                    <img class="close-btn__icon" src="./img/header/mobile/nav-btn.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="welcome">
+                        <div class="container">
+                            <ul class="welcome__lists">
+                                <li class="welcome__item">Hello</li>
+                                <li class="welcome__item">Bonjour</li>
+                                <li class="welcome__item">Olá</li>
+                                <li class="welcome__item">Marhabaan</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="container">
+                            <h2 class="contact__title">Contact us</h2>
+                            <div class="contact__items">
+                                <div class="contact__item">
+                                    <a class="contact__email" href="mailto:info@invoriem.com">info@invoriem.com</a>
+                                </div>
+                                <div class="contact__item">
+                                    <a class="contact__tel" href="tel:+55512345258">+555 1234 52 58</a>
+                                </div>
+                                <div class="contact__item">
+                                    <address class="contact__address">
+                                        3517 W. Gray St. <br>
+                                        Utica, Pennsylvania <br>
+                                        57867
+                                    </address>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div class="container">
+                            <div class="footer__row">
+                                <p class="footer__text footer__copyright">Copyright © 2020 Invoriem</p>
+                                <div class="footer__text footer__email">
+                                    <a href="#!">info@invoriem.com</a>
+                                </div>
+                                <ul class="footer__socials">
+                                    <li class="social__item">
+                                        <a href="#!"><img src="./img/footer/instagram.svg" alt="instagram" class="social__icon"></a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#!"><img src="./img/footer/facebook.svg" alt="facebook" class="social__icon"></a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#!"><img src="./img/footer/twitter.svg" alt="twitter" class="social__icon"></a>
+                                    </li>
+                                    <li class="social__item">
+                                        <a href="#!"><img src="./img/footer/linkedIn.svg" alt="linkedIn" class="social__icon"></a>
+                                    </li>
+                                </ul>
+                                <div class="mar-16px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                
                 <div class="mobile-header__hero">
                     <img src="./img/header/mobile/logo-title.svg" alt="logo">
                     <p class="text mobile-hero__text">We fulfill international property developments</p>
                 </div>
-    
+
             </div>
             <a href="#case-studies" class="more-btn">
                 <img src="./img/header/more-btn.svg" alt="more info" class="more-btn__icon full-width">

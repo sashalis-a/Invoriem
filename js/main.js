@@ -4,7 +4,19 @@ $(document).ready(function(){
         margin: 48,
         loop: true,
         autoWidth: true,
+        autoplay: true,
+        responsive: {
+            // breakpoint from 0 up
+            0 : {
+                margin: 38,
+            },
+            // breakpoint from 480 up
+            600 : {
+                margin: 48,
+            }
+        },
     });
+    
 })
 
 // VIDEO
@@ -26,4 +38,20 @@ videoWrapper.addEventListener('click', function () {
 
         video.pause();
     }
+})
+
+// Mobile nav
+
+const openBtn = document.querySelector('#openNav');
+const closeBtn = document.querySelector('#closeNav');
+const mobileNav = document.querySelector('#mobileNav');
+
+openBtn.addEventListener('click', function () {
+    mobileNav.classList.remove('none');
+    document.body.classList.add('no-scroll');
+})
+
+closeBtn.addEventListener('click', function () {
+    mobileNav.classList.add('none');
+    document.body.classList.remove('no-scroll');
 })

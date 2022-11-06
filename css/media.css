@@ -11,13 +11,18 @@
   }
 }
 
+@media (max-width: 750px) {
+  /* mobile header nav */
+}
+
+
 /* Mobile */
 
 @media (max-width: 600px) {
   /* Header */
 
   .logo {
-    max-width: 109px;
+    height: 20px;
   }
   
   .nav__list {
