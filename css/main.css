@@ -93,10 +93,6 @@ p {
     align-items: center;
 }
 
-.nav__logo, .logo__icon {
-    height: 32px;
-}
-
 .nav__list {
     display: flex;
     align-items: center;
@@ -335,22 +331,8 @@ p {
 
 /* Header */
 
-.nav-header {
-    padding-top: 56px;
-}
-
-.header__inner {
-    display: flex;
-    justify-content: space-between;
-}
-
 .logo__icon {
     height: 20px;
-}
-
-.close-btn__icon {
-    width: 24px;
-    height: 24px;
 }
 
 /* Welcome  */
